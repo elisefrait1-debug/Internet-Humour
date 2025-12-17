@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Humour On The Internet</title>
+    <style>
+        /* --- About us titre + background indépendant de l'autre en gros--- */
+       body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: linear-gradient(135deg, #4CAF50, #d7e647, #D7E647, #4CAF50, #2e8b45);
+            background-size: 100% 200%;
+            color: #333bcf;
+        }
+
+        /* --- BANNIÈRE EN HAUT --- */
+        .banner {
+            width: 100%;
+            background-color: #2e8b45; /* vert foncé */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        
+        .banner-left {
+            flex: 1;
+        }
+
+        .banner-right {
+            flex: 0 0 auto;
+            margin-right: 100px;
+        }
+      
+        /* couleur du texte langue spécialisée club en haut à gauche */
+        .banner a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .banner a:hover {
+            opacity: 0.7;
+        }
+
+        /* --- placement du titre about us --- */
+        .container {
+            text-align: center;
+            padding: 120px 20px 50px 20px;
+            min-height: 100vh;
+        }
+
+      /* --- paramètres du titre about us --- */
+        .title {
+            font-size: 60px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        
+        @keyframes uprise {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* paramètres des textes explicatifs*/
+        .content {
+            max-width:900px; 
+        margin:30px auto;
+        font-size:24px;
+        font-weight: 600;
+        line-height:1.8;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0b7225; 
+        text-align:justify; }
+
+        /* couleur des textes explicatifs */
+        .container > .content {
+            color: #0b7225;
+        }
+
+        /* couleur des petits titres au dessus des textes explicatifs*/
+        .content h2 {
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #0b7225;
+        }
+        /* paramètres du sous-titre ressources & bibliography */
+        .content h3 {
+            max-width:900px; 
+        margin:40px auto;
+        font-size:40px;
+        line-height:1.8;
+        color:#333bcf; 
+        text-align:justify; }
+
+        /* icone back to home en bas*/
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #2e8b45;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #1e5a2f;
+        }
+    </style>
+</head>
+
+Partie HTML 
+<body>
+
+    <!-- BANNIÈRE -->
+    <div class="banner">
+        <div class="banner-left"><a href="333.html">LANGUE SPÉCIALISÉE CLUB</a></div>
+        <div class="banner-right">
+            <a href="discover-irony.html">Discover Humour |</a> <a href="about.html">About |</a> <a href="meme-library.html"> Meme Library</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">About Us</h1>
+
+        <div class="content">
+            <h2>Our Mission</h2>
+            <p>
+               Our website is dedicated to exploring and analyzing humour that define internet culture. Our goal is to understand 
+               the mechanisms of humour on the Internet and in online communication. Please note that this website is a first 
+               approach to this topic and does not claim to be exhaustive.
+            </p>
+
+            <h2>Learn with Us</h2>
+            <p>
+                 If you are interested in internet culture, you are on the right website. Learn more about internet humour 
+                 through analysis and examples. Together, we will delve into a whole new world and explore how humour 
+                 shapes our online interactions.
+
+
+            <h2>The Website</h2>
+            <p>
+                This website is the result of many hours of work and research. It was coded entirely by hand, 
+                without any templates or website builders. We hope you’ll enjoy discovering this website as much 
+                as we enjoyed creating it.
+               
+            </p>
+            <h3>Ressouces & Bibliography</h3>
+            <p> 1. Shifman, Limor. Memes in Digital Culture. The MIT Press, 2013.</p>
+            <p>2. Dawkins, Richard. The Selfish Gene. Oxford, Oxford University Press, 1976, p. 192.</p>
+            <p>3. Hull, David L. (1988). Science as a Process: An Evolutionary Account of the Social and 
+                Conceptual Development of Science. Cambridge, MA: MIT Press.</p>
+            <p>4. Mcculloch, Gretchen. Because Internet: Understanding the New Rules of Language.
+                 New York, Riverhead Books, 23 July 2019.</p>
+            <p>Social media used for our research :<p> Reddit - Instagram - X - Tiktok - Tumblr </p>
+            <p>Sources : </p>
+            <p>Wikipédia : https://en.wikipedia.org/wiki/Humor_on_the_Internet</p>
+            <p>Know Your Meme : https://knowyourmeme.com/</p>
+            <p>Urban Dictionary : https://www.urbandictionary.com/</p>
+            <p>IJIRD: https://ijird.com/culture-clash-how-memes-and-internet-humour-are-shaping-modern-communication/</p>
+
+
+            <a href="333.html" class="back-link">← Back to Home</a>
+        </div>
+    </div>
+
+</body>
+</html>

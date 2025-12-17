@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Library - The Irony On The Internet</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background: linear-gradient(135deg, #4caf50, rgb(215, 230, 71), #D7E647, #4CAF50, #2e8b45);
+            background-size: 100% 200%;
+            color: #333bcf;
+        }
+
+        /* --- BANNIÈRE EN HAUT --- */
+        .banner {
+            width: 100%;
+            background-color: #2e8b45; /* vert foncé */
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .banner-left {
+            flex: 1;
+        }
+        
+/* --- about and meme library en haut  --- */
+        .banner-right {
+            flex: 0 0 auto;
+            margin-right: 100px;
+        }
+        .banner a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        .banner a:hover {
+            opacity: 0.7;
+        }
+
+        /* --- titre -- meme library--- */
+        .container {
+            text-align: center;
+            padding: 120px 20px 50px 20px;
+            min-height: 100vh;
+        }
+        .title {
+            font-size: 60px;
+            font-weight: 900;
+            line-height: 1.1;
+            margin: 0;     
+        }
+        .container > .title {
+            color: #333bcf;
+        }
+
+        @keyframes uprise {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        /* --- paragraph 1--- */
+        .content {
+         max-width:900px; 
+        margin:30px auto;
+        font-size:24px;
+        line-height:1.8;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#0b7225; 
+        text-align:justify;
+        font-weight:600; 
+        font-size: 24px; }
+        
+
+        /* --- sous titre Explore internet--- */
+        .content h2 {
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #0b7225;
+        }
+
+        /* ---back link--- */
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #2e8b45;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #1e5a2f;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+    <!-- BANNIÈRE -->
+    <div class="banner">
+        <div class="banner-left"><a href="333.html">LANGUE SPÉCIALISÉE CLUB</a></div>
+        <div class="banner-right">
+            <a href="discover-irony.html">Discover Humour |</a> <a href="about.html">About |</a> <a href="meme-library.html"> Meme Library</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Meme Library</h1>
+
+       <div class="content">
+    <h2>Explore Internet Memes & humour</h2>
+
+    <p>
+        Here you'll find a collection of internet memes and GIFs that showcase the unique language and humour of digital
+        culture. Each meme is accompanied by a brief explanation of its significance and how it reflects the evolving
+        nature of online communication.
+    </p>
+
+    <img src="blinking-white-guy" alt="Blinking white guy meme" class="meme-img">
+</div>
+
+    
+    
+
+
+    </div>
+
+</body>
+</html>
