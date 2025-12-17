@@ -8,7 +8,7 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            background: linear-gradient(135deg, #4caf50, rgb(215, 230, 71), #D7E647, #4CAF50, #2e8b45);
+            background: linear-gradient(135deg, #4caf50, #d7e647, #4CAF50, #2e8b45);
             background-size: 100% 200%;
             color: #333bcf;
         }
@@ -16,7 +16,7 @@
         /* --- BANNIÈRE EN HAUT --- */
         .banner {
             width: 100%;
-            background-color: #2e8b45; /* vert foncé */
+            background-color: #2e8b45;
             color: white;
             display: flex;
             justify-content: space-between;
@@ -34,34 +34,34 @@
         .banner-left {
             flex: 1;
         }
-        
-/* --- about and meme library en haut  --- */
+
         .banner-right {
             flex: 0 0 auto;
             margin-right: 100px;
         }
+
         .banner a {
             color: white;
             text-decoration: none;
             transition: opacity 0.3s ease;
         }
+
         .banner a:hover {
             opacity: 0.7;
         }
 
-        /* --- titre -- meme library--- */
+        /* --- titre --- */
         .container {
             text-align: center;
             padding: 120px 20px 50px 20px;
             min-height: 100vh;
         }
+
         .title {
             font-size: 60px;
             font-weight: 900;
             line-height: 1.1;
-            margin: 0;     
-        }
-        .container > .title {
+            margin: 0;
             color: #333bcf;
         }
 
@@ -75,20 +75,19 @@
                 transform: translateY(0);
             }
         }
-        /* --- paragraph 1--- */
-        .content {
-         max-width:900px; 
-        margin:30px auto;
-        font-size:24px;
-        line-height:1.8;
-        font-family: Arial, Helvetica, sans-serif;
-        color:#0b7225; 
-        text-align:justify;
-        font-weight:600; 
-        font-size: 24px; }
-        
 
-        /* --- sous titre Explore internet--- */
+        /* --- paragraph --- */
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            font-size: 24px;
+            line-height: 1.8;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #0b7225;
+            text-align: justify;
+            font-weight: 600;
+        }
+
         .content h2 {
             font-size: 32px;
             margin-top: 30px;
@@ -96,7 +95,7 @@
             color: #0b7225;
         }
 
-        /* ---back link--- */
+        /* --- back link --- */
         .back-link {
             display: inline-block;
             margin-top: 30px;
@@ -111,8 +110,15 @@
         .back-link:hover {
             background-color: #1e5a2f;
         }
-        
 
+        /* --- meme image responsive --- */
+        .meme-img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
 
@@ -120,31 +126,50 @@
 
     <!-- BANNIÈRE -->
     <div class="banner">
-        <div class="banner-left"><a href="333.html">LANGUE SPÉCIALISÉE CLUB</a></div>
+        <div class="banner-left"><a href="index.html">LANGUE SPÉCIALISÉE CLUB</a></div>
         <div class="banner-right">
-            <a href="discover-irony.html">Discover Humour |</a> <a href="about.html">About |</a> <a href="meme-library.html"> Meme Library</a>
+            <a href="discover-irony.html">Discover Humour |</a>
+            <a href="about.html">About |</a>
+            <a href="meme-library.html">Meme Library</a>
         </div>
     </div>
 
     <div class="container">
         <h1 class="title">Meme Library</h1>
 
-       <div class="content">
-    <h2>Explore Internet Memes & humour</h2>
+        <div class="content">
+            <h2>Explore Internet Memes & Humour</h2>
 
-    <p>
-        Here you'll find a collection of internet memes and GIFs that showcase the unique language and humour of digital
-        culture. Each meme is accompanied by a brief explanation of its significance and how it reflects the evolving
-        nature of online communication.
-    </p>
+            <p>
+                Here you'll find a collection of internet memes and GIFs that showcase the unique language and humour of digital
+                culture.
+            </p>
 
-    <img src="blinking-white-guy" alt="Blinking white guy meme" class="meme-img">
-</div>
+            <h2>Girl Dinner</h2>
 
-    
-    
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE2rq4iC6MmuZq-ybZKly8NuYmKFHqynm4gg&s" alt="girl dinner" width="300">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGsfzz8rE52nNPzuLTjIaOMJB6Rs1z_NU0sA&s" alt="girl dinner" width="300">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DQn0wW6g39vl2Wjy4LDRNd7REn3mdtjB0A&s" alt="girl dinner" width="200">
 
+            <h2>Me/Also me :</h2>
 
+            <img src="https://i.pinimg.com/736x/44/2a/61/442a6172b9e6da8a8bab9366bb46da68.jpg" alt="Me/also me">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKa8wJmR5xR7dcjdsmkYjMLPa9iTOJCW9T3A&s" alt="Me/also me" width="500">
+
+            <h2>Famous memes</h2>
+            <img src="https://img.20mn.fr/EWQgfrxZSHWGfvPwZjX3PA/1444x920_annee-2017" alt="famous meme photo" width="400">
+            <img src="https://ypn.poetrysociety.org.uk/wp-content/uploads/fry-meme.jpg" alt="famous meme photo" width="400">
+            <img src="https://cdn-ilecccn.nitrocdn.com/RanGABiTadbcbUtojmhXDdudFjKCdOMD/assets/images/optimized/rev-722d734/www.worldsbestcatlitter.com/wp-content/uploads/2019/08/6.png" alt="famous meme photo" width="400">
+            <img src="https://i.pinimg.com/736x/88/e0/5b/88e05b4031b057a301454b9871578eb2.jpg" alt="famous meme photo" width="400">
+
+            <h2>Gifs</h2>
+            <img src=https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyYWQ5OHZlY3NhbjNoa3FoemZpamZncmRtM2FxM3A1eG1rcjY5bmV3ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gKHGnB1ml0moQdjhEJ/200w.gif alt="gif" width="400">
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyNXNudHQ2MDd6bmd0bjl1b2JsY3Q1M20yNDJ5ejFnOGdvNTFpNm5sZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/9PgvV8ale90lQwfQTZ/200w.gif" alt="gif 2" width="350">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdSf_0WluTNR6vgNQvWoW32jUZU3OY47oidQ&s" alt="gif 3" width="400">
+
+            <h2></h2>
+            <a href="index.html" class="back-link">Back to Home</a>
+        </div>
     </div>
 
 </body>
